@@ -1,5 +1,5 @@
 # ITF-Barcode-Generator
-Using TKinter, produces 20 IFT barcodes for 9 digit codes
+Using TKinter, produces up to 20 IFT barcodes for 9 digit codes
 
 Introduction and reasons for it
 - This is my first github upload so very much open to feedback.
