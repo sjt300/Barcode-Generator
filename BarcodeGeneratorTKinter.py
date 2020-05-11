@@ -1,13 +1,7 @@
 from tkinter import *
-# -initialisation-
+# -initialisation- (some crucial parts initialised in clear_screen())
 # list representing characters from 0-9, start char and end char in ITF format
 char_list = [(0, 0, 1, 1, 0), (1, 0, 0, 0, 1), (0, 1, 0, 0, 1), (1, 1, 0, 0, 0,), (0, 0, 1, 0, 1), (1, 0, 1, 0, 0), (0, 1, 1, 0, 0), (0, 0, 0, 1, 1), (1, 0, 0, 1, 0), (0, 1, 0, 1, 0), (0, 0), (0, 0)]
-# number of Tesco Product Numbers submitted(TPNs)
-tpn_quant = -1
-# barcode to show (prevents PDAs from picking up adjacent TPNs)
-tpn_focus = 0
-#  Up to 20 TPNs can be submitted at a time before cycling through
-tpn_list = []
 # list of coords to place blackouts - constant
 blackout_coords = []
 for i in range(0, 10):
