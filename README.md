@@ -18,4 +18,4 @@ Instructions
 Future intended Improvements
 -Code: Having been fairly inexperienced with Classes/modules, I didn't use any.  For the next build I would use a seperate module to build the functions.  Also more comments required.
 -If I can find applications for other businesses that use ITF barcodes (off the top of my head, possbily outer-case-codes or delivery barcodes) I could tweak it to accept longer barcodes and also introduce accepting numbers that don't begin with '0'.
--Having a popup message if a mistake is made rather than just not accepting the input
+-Change rectangles to lines in Tkinter canvas as while develpoing new build, lines seem to work alot better with coordinates
