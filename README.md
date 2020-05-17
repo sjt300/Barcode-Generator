@@ -1,4 +1,5 @@
-# ITF-Barcode-Generator
+Barcode-Generator
+1st Upload:
 Using TKinter, produces up to 20 IFT barcodes for 9 digit codes
 
 Introduction and reasons for it
@@ -18,4 +19,10 @@ Instructions
 Future intended Improvements
 -Code: Having been fairly inexperienced with Classes/modules, I didn't use any.  For the next build I would use a seperate module to build the functions.  Also more comments required.
 -If I can find applications for other businesses that use ITF barcodes (off the top of my head, possbily outer-case-codes or delivery barcodes) I could tweak it to accept longer barcodes and also introduce accepting numbers that don't begin with '0'.
--Change rectangles to lines in Tkinter canvas as while develpoing new build, lines seem to work alot better with coordinates
+-Change rectangles to lines in Tkinter canvas as while developing new build, lines seem to work alot better with coordinates
+
+2nd Upload:
+-First attempt, although barcodes were recognised by some applications, they were not by the primary application I wanted to use.
+-I discovered that it was actually Code39 format that I would need.
+-Instead of just using the same code and tweaking it, I thought I'd start it again as I wanted to use Classes as described in my first upload notes.
+-The uability is largely the same but tidier code and probably easier to read and understand
